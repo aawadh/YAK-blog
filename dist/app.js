@@ -7,7 +7,7 @@ const express_1 = __importDefault(require("express"));
 const dotenv_1 = require("dotenv");
 const connection_1 = require("./utils/connection");
 const express_graphql_1 = require("express-graphql");
-const handlers_1 = __importDefault(require("./Handlers/handlers"));
+const handlers_1 = __importDefault(require("./handlers/handlers"));
 const cors_1 = __importDefault(require("cors"));
 (0, dotenv_1.config)();
 const app = (0, express_1.default)();
