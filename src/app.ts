@@ -8,7 +8,7 @@ import cors from "cors";
 config();
 const app = express();
 app.use(cors());
-app.use("/graphql", graphqlHTTP({ schema: schema, graphiql: true}));
+app.use("/graphql", graphqlHTTP({ schema: schema, graphiql: false}));
 
 const PORT = process.env.PORT;
 
